@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+.venv/
+venv/
+.Python
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Data and models (do not commit large binaries)
+data/dlib_face_recognition_resnet_model_v1.dat
+data/shape_predictor_68_face_landmarks.dat
+data/data_faces_from_camera/
+data/features_all.csv
+attendance.db
+
+# Other
+*.log
+
+# Git LFS placeholder for .dat model files
+*.dat filter=lfs diff=lfs merge=lfs -text
